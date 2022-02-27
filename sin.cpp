@@ -37,7 +37,12 @@ double s(int x, int n){
 int main(){
 
 
-    int x=4, n=10;
+    int x, n;
+    cout << "Enter value of x: ";
+    cin >> x;
+
+    cout << "Enter number of term: ";
+    cin >> n;
     
     cout << s(x, n) << endl;
 
